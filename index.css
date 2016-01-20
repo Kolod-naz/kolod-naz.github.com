@@ -31,3 +31,8 @@ div{
   color: #40232B;
   font: italic bold 15px/30px Georgia, serif;
 }
+
+p{
+    margin-left: inherit;
+}
+
