@@ -8,19 +8,24 @@
     height: 45px;
     margin-right: auto;
 }
-.main-container{
+.main-container {
    width: 1000px;
     margin: 0 auto;
     background-color: lightgray
+    
 }
 
+.promo-container {
+    background-color: cadetblue;
+
+}
 
 
 header{
      display: flex;
 }
 
-.pill-button{
+.pill-button {
    display: inline-block;
    background: grey;
    padding: 10px 30px 10px 30px;
@@ -42,14 +47,56 @@ padding-top: 200px;
 background: pink;
 }
 
-.promo-message{
+.promo-message {
     width: 60%;
     padding: 50px;
-    background: lightgray;
+    background: cadetblue;                                                                                                                                                                                                                         ;
     
 }
 
-.myNeatDiv
+.product-feature, .product-buy-it-now {
+display: flex;
+background-color: powderblue;
 
+
+}
+
+.feature-image {
+    
+background-color: cornflowerblue;
+width: 200px;
+height: 200px;
+margin: 0 auto 0 auto;
+border-radius: 50%;
+overflow: hidden;
+
+
+}
+
+.feature {
+text-align: center;
+padding: 20px;
+}
+
+.product-buy-it-now {
+align-items: center;
+padding: 20px;
+background-color: lightgoldenrodyellow
+}
+
+.product-info{
+
+text-align: right;
+}
+
+/*product reviews*/
+
+#product-reviews{
+background-color: pink;
+color:cadetblue;
+text-align: center;
+padding: 50px;
+
+}
 
     
