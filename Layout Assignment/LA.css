@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+#box_1 { 
+    position: absolute;
+	width: 200px;
+	height: 200px;
+  top: 0px ;
+  left: 0px ;
+	background-color: paleturquoise;
+}
+
+#box_2 { 
+    position: absolute;
+	width: 200px;
+	height: 200px;
+  top: 0px;
+  right: 0px ;
+	background-color: darkseagreen;
+}
+
+
+#box_3 { 
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: lightpink;
+  left: 0px ;
+  bottom: 0px;
+}
+
+#box_4 {
+		position: absolute;
+	width: 200px;
+	height: 200px;
+	background-color: plum;
+  right: 0px ;
+  bottom: 0px ;
+}
+.main-container {
+    position: relative;
+    width: 960px;
+    height: 570px;
+    margin: 0 auto;
+    background-color: white;
+    border: 8px solid lightgray;
+    
+   
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
