@@ -1,56 +1,135 @@
-*{
-    box-sizing: border-box;
+
+* {
+box-sizing: border-box;
+}
+
+.section_one {
+position:relative;
+width: 960px;
+height: 570px;
+margin: auto;
+border: 8px lightslategray solid;
 }
 
 #box_1 { 
-    position: absolute;
-	width: 200px;
-	height: 200px;
-  top: 0px ;
-  left: 0px ;
-	background-color: paleturquoise;
+position: absolute;
+width: 200px;
+height: 200px;
+top: 0px;
+left: 0px;
+background-color: lightblue;
 }
 
 #box_2 { 
-    position: absolute;
-	width: 200px;
-	height: 200px;
-  top: 0px;
-  right: 0px ;
-	background-color: darkseagreen;
+position: absolute;
+width: 200px;
+height: 200px;
+top: 0px;
+right: 0px;
+background-color: lightcoral;
 }
 
-
 #box_3 { 
-	position: absolute;
-	width: 200px;
-	height: 200px;
-	background: lightpink;
-  left: 0px ;
-  bottom: 0px;
+position: absolute;
+width: 200px;
+height: 200px;
+background-color: lightseagreen;
+left: 0px;
+bottom: 0px;
 }
 
 #box_4 {
-		position: absolute;
-	width: 200px;
-	height: 200px;
-	background-color: plum;
-  right: 0px ;
-  bottom: 0px ;
-}
-.main-container {
-    position: relative;
-    width: 960px;
-    height: 570px;
-    margin: 0 auto;
-    background-color: white;
-    border: 8px solid lightgray;
-    
-   
-    
+position: absolute;
+width: 200px;
+height: 200px;
+background-color: lightpink;
+right: 0px;
+bottom: 0px;
 }
 
-*{
-    box-sizing: border-box;
+.spacing {
+width: 960px;
+height: 130px;
+margin: auto;
+
+
 }
 
+.section_two {
+display: flex;
+background: gray;
+margin: auto;
+width: 960px;
+height: 570px;
+border: 8px lightslategray solid;
+}
+
+.align-flex-end {
+align-items: flex-end;
+}
+
+.align-center {
+align-items: center;
+}
+
+.flex-item-1,
+.flex-item-2,
+.flex-item-3,
+.flex-item-4 {
+background-color: lightcoral;
+flex: 1;
+}
+
+.flex-item-2 {
+background-color: cadetblue;
+}
+
+.flex-item-3 {
+background-color: lightgoldenrodyellow;
+}
+
+.flex-item-4 {
+background-color:darkseagreen;
+}
+
+.flex-box-1 {
+
+}
+
+
+
+
+.section_three {
+margin: auto;
+padding: 10px;
+display: flex;
+flex-wrap: wrap;
+width: 960px;
+height: 570px;
+border: 8px lightslategray solid;
+}
+
+.flex-box-1, .flex-box-2, .flex-box-3 {
+margin: auto;
+}
+
+.flex-box-1 {
+background-color: lightgoldenrodyellow;
+height: 120px;
+width: 920px;
+margin: auto;
+}
+
+.flex-box-2 {
+height: 395px;
+width: 175px;
+background-color: palevioletred;
+margin: auto;
+}
+
+.flex-box-3 {
+height: 395px;
+width: 730px;
+background-color: cadetblue;
+margin: auto;
+}
