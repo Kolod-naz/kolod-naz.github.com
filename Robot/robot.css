@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+.robot {
+  position: relative;
+  width: 500px;
+  margin: auto;
+}
+
+.head{
+ position: absolute;
+ width: 200px;
+ height: 200px;
+ background: darkcyan;
+ top: 70px;
+     
+}
+
+.h{
+color: darkcyan
+palevioletred
+    white
+}
+.eye-left{
+ position: absolute;
+ width: 2px;
+ height: 5px;
+ border: 20px solid ;
+ background: blue;
+ top: 40px;
+ right: 22px;
+}
+
+.eye-right{
+
+ position: absolute;
+ width: 2px;
+ height: 15px;
+ border: 20px solid ;
+ background: blue;
+ top: 40px;
+ left: 22px;
+}
+
+.ear-left{
+ position: absolute;
+ width: 20px;
+ height: 15px;
+ border: 20px solid ;
+ background: blue;
+ top: 50px;
+ right: -40px;
+ border-radius: 50%;
+
+}
+.ear-right{
+
+}
+.nose{
+
+}
+.mouth{ 
+
+}
+
+
+.body{ 
+
+}
+.hand-left{ 
+
+}
+.hand-left-joint1{ 
+
+}
+.hand-left-joint2{ 
+
+}
+.hand-right{ 
+
+}
+.hand-right-joint1{ 
+
+}
+.hand-right-joint2{ 
+ 
+}
+
+
+.leg-left1{ 
+ 
+}
+.leg-left-joint1{ 
+
+}
+.leg-left2{ 
+
+}
+.feet{ 
+
+}
+.leg-right1{ 
+
+}
+.leg-right-joint1{ 
+
+}
+.leg-right2{ 
+ 
+}
+.feet2{ 
+
+}
