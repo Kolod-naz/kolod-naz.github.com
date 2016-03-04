@@ -3,7 +3,7 @@
 }
 
 .branding { 
-    background-color: black;
+    background-color:cadetblue ;
     width: 150px;
     height: 45px;
     margin-right: auto;
@@ -11,8 +11,15 @@
 .main-container {
    width: 1000px;
     margin: 0 auto;
+    font-family: 'Architects Daughter', cursive;
     background-color: lightgray
     
+}
+
+nav a:hover{
+background-color: lightgoldenrodyellow;
+    
+
 }
 
 .promo-container {
@@ -25,6 +32,13 @@ header{
      display: flex;
 }
 
+h1, h3{
+font-family: 'Pacifico', cursive;
+}
+
+p{
+font-family: 'Architects Daughter', cursive;
+}
 .pill-button {
    display: inline-block;
    background: grey;
