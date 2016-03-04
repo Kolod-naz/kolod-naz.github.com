@@ -3,7 +3,7 @@
 }
 
 .branding { 
-    background-color:cadetblue ;
+    background-color: lightgoldenrodyellow;
     width: 150px;
     height: 45px;
     margin-right: auto;
@@ -23,7 +23,7 @@ background-color: lightgoldenrodyellow;
 }
 
 .promo-container {
-    background-color: cadetblue;
+    background-color: lightgoldenrodyellow;
 
 }
 
@@ -59,12 +59,19 @@ font-family: 'Architects Daughter', cursive;
 #big-promo {
 padding-top: 200px;
 background: pink;
+background-image: url("macroonK.jpg") ;
+background-size:cover; 
 }
 
 .promo-message {
     width: 60%;
     padding: 50px;
-    background: cadetblue;                                                                                                                                                                        }
+    background: cadetblue;
+    background-blend-mode:hard-light;
+    background-image: url(macroons1.jpg);
+    background-size: cover;
+ 
+}
 
 .product-feature, .product-buy-it-now {
 display: flex;
