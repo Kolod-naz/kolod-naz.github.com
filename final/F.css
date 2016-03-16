@@ -1,0 +1,100 @@
+.four-feature-blocks {
+    position: relative;
+    margin: 40px 0 0 0;
+}
+
+.more-features-image-page img{
+    position: relative;
+    margin: 25px;
+    height: 150px;
+    width: 250px;
+}
+
+.large-feature-image img {
+    width: 1150px;
+}
+
+.feature-block-one {
+    position: relative;
+    display: inline-flex;
+    font-family: raleway;
+}
+
+.feature-block-two {
+    position: relative;
+    display: inline-flex;
+    left: 185px;
+    font-family: raleway;
+    padding: 0 10px 0 0;
+}
+
+.feature-block-three {
+    position: relative;
+    display: inline-flex;
+    font-family: raleway;
+    
+}
+
+.feature-block-four {
+    position: relative;
+    display: inline-flex;
+    left: 185px;
+    font-family: raleway;
+    padding: 0 10px 0 0;
+}
+
+.blocks-text {
+    position: relative;
+    width: 200px;
+}
+
+.large-feature-image img{
+    display: flex;
+    position: relative;
+    margin: auto;
+}
+
+.large-feature-image p {
+    position: relative;
+    display: flex;
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.features-five-images {
+    position: relative;
+    display: inline-flex;
+    left: 25px;
+    margin: 20px 0 0px 0;
+}
+
+.features-five-images img{
+    position: relative;
+    margin: none;
+    display: flex;
+    height:230px;
+}
+
+.five-image-paragraph {
+    position: relative;
+    display: flex;
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.pill-button-pricing-two {
+    position: relative;
+    display: inline-flex;
+    margin: 0 0 50px 0;
+    left: 540px;
+    background: none;
+    padding: 10px 30px 10px 30px;
+    color: grey;
+    text-decoration: none;
+    font-family: raleway;
+    border: solid;
+}
