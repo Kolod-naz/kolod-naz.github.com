@@ -159,7 +159,8 @@
 .more-features-image img{
     position: relative;
     padding: 30px 20px 30px 10px ;
-    width: 600px;
+    width: 400px;
+    height: 400px;
 }
 
 .pill-button-feature {
@@ -171,8 +172,7 @@
     font-family: 'Cabin', sans-serif;
     padding: 10px 30px 10px 30px;
     margin: 30px 0 0 30px;
-    color: #39E8C7F;
-    text-decoration: none;
+    color: #9E8C7F;
     border: solid;
 }
 
