@@ -3,21 +3,31 @@
 }
 
 .main-container {
+	position: relative;
+	diplay: flex;
     width: 1200px;
-    margin: 0 auto 0 auto;
-    position: relative;
+    margin: 5px auto 5px auto;
     margin: auto;
-    diplay: flex;
     background-color: #DDC4A5;
 }
+
 
 .logo{
     position: relative;
     display: flex;
-    left: 260px;
-    top: 12px;
+    left: 275px;
+    top: 7px;
+
 }
 
+.main-image{
+    position: relative;
+	background-image: url("Cbackground.jpg");
+    height: 500px;
+    margin: auto;
+    background-size: cover;
+   
+}
 
 .nav {
     position: relative;
@@ -48,16 +58,9 @@
 
 
 
-.sign-up{
-    position: relative;
-    height: 500px;
-    margin: auto;
-    background-size: cover;
-    background-image: url("Cbackground.jpg");
-}
 
 
-.sign-up-text-blox {
+.sign-up-box {
     position: relative;
     width: 600px;
     margin: auto;
@@ -65,7 +68,7 @@
     background: none;
 }
 
-.sign-up-text-blox h1 {
+.sign-up-box h1 {
     position: relative;
     margin: auto;
     font-family: 'Cabin', sans-serif;
@@ -74,7 +77,7 @@
     
 }
 
-.sign-up-text-blox p {
+.sign-up-box p {
     position: relative;
     height: 80px;
     width: 400px;
@@ -85,7 +88,7 @@
    
 }
 
-.pill-button-pricing {
+.pricing-putton {
     position: relative;
     left: 252px;
     margin: none;
@@ -100,23 +103,24 @@
     position: relative;
     display: inline-flex;
     padding: 70px 0 40px 0;
+	
 }
-.features {
+.features-container {
     width: 300px;
+	padding: 5px 5px 5px 5px;
+	 
+	
 }
 
 .feature-image {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    margin:;
-    padding: inherit;
+   position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto 0 auto;
+	 height: 200px;
+    overflow: hidden;
 }
 
-.feature-image img {
-    height: 200px;
-    
-}
 
 .features h2 {
     position: relative;
@@ -156,26 +160,28 @@
     
 }
 
-.more-features-image img{
-    position: relative;
-    padding: 30px 20px 30px 10px ;
-    width: 400px;
-    height: 400px;
-}
 
-.pill-button-feature {
+.f-button {
+	font-family: 'Cabin', sans-serif;
     position: relative;
     justify-content: flex-start
     left: 250px;
     display: inline-block;
+	border: solid;
     background: none;
-    font-family: 'Cabin', sans-serif;
     padding: 10px 30px 10px 30px;
     margin: 30px 0 0 30px;
     color: #9E8C7F;
-    border: solid;
+	text-decoration: none;
+    
 }
 
+.view-f img{
+    position: relative;
+    width: 250px;
+    height: 250px;
+	padding: 30px 20px 30px 10px ;
+}
 .footer {
     display: flex;
     padding: 15px 10px 15px 10px;
@@ -183,4 +189,38 @@
     right: inherit;
     padding-right: 50px;
 }
+
+footer {
+    background: #9E8C7F;
+    display: flex;
+    padding: 15px 10px 15px 10px;
+    font-size: 12px;
+}
+
+
+.footer-links {
+    flex: 1;
+    text-align: right;
+}
+
+.footer-links a {
+    font-family: 'Cabin', sans-serif;;
+	font-size: 16px;
+	color: black;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.footer-links p {
+    color: black;
+    margin: 5px 0;
+    padding: 10px;
+    word-spacing: 3px;
+}
+
+p{
+	font-size: 17px;
+	}
+
 

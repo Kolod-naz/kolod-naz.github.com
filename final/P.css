@@ -23,20 +23,20 @@
     height: 500px;
     width: 300px;
     margin: 10px;
-    box-shadow: 3px 3px lightgrey;
+  
 }
 
 .package-prices {
     font-size: 90px;
     text-align: center;
-    font-family: raleway;
+   font-family: 'Cabin', sans-serif;
 }
 
 .package-one-box p {
     text-align: center;
     padding: 20px;
     line-height: 25px;
-    font-family: Roboto+Slab;
+     font-family: 'Cabin', sans-serif;
 }
 
 .package-two-box {
@@ -46,7 +46,7 @@
     height: 500px;
     width: 300px;
     margin: 10px;
-    box-shadow: 3px 3px lightgrey;
+    font-family: 'Cabin', sans-serif;
 
 }
 
@@ -54,7 +54,7 @@
     text-align: center;
     padding: 0 20px;
     line-height: 25px;
-    font-family: Roboto+Slab;
+     font-family: 'Cabin', sans-serif;
 }
 
 .package-three-box {
@@ -71,8 +71,7 @@
 .package-three-box p {
     text-align: center;
     padding: 0 20px;
-    line-height: 25px;
-    font-family: Roboto+Slab;
+    font-family: 'Cabin', sans-serif;
 }
 
 .pill-button-buy_1 {
@@ -84,7 +83,7 @@
     padding: 10px 30px 10px 30px;
     text-decoration: none;
     color: grey;
-    font-family: raleway;
+    font-family: 'Cabin', sans-serif;
     border: solid;
 }
 
@@ -97,7 +96,7 @@
     padding: 10px 30px 10px 30px;
     text-decoration: none;
     color: grey;
-    font-family: raleway;
+    font-family: 'Cabin', sans-serif;
     border: solid;
 }
 
@@ -110,7 +109,7 @@
     padding: 10px 30px 10px 30px;
     text-decoration: none;
     color: grey;
-    font-family: raleway;
+    font-family: 'Cabin', sans-serif;
     border: solid;
 }
 
@@ -125,7 +124,7 @@
     font-size: 40px;
     text-align: center;
     margin: 0 0 50px 0;
-    font-family: raleway;
+    font-family: 'Cabin', sans-serif;
 }
 
 .about-blog {
@@ -143,10 +142,9 @@
     padding: 10px 30px 10px 30px;
     text-decoration: none;
     color: grey;
-    font-family: raleway;
+    font-family: 'Cabin', sans-serif;
     border: solid;
 }
-
 
 
 * {
@@ -154,12 +152,30 @@
 }
 
 .main-container {
+	position: relative;
+	diplay: flex;
     width: 1200px;
-    margin: 0 auto 0 auto;
-    position: relative;
+    margin: 5px auto 5px auto;
     margin: auto;
-    diplay: flex;
     background-color: #DDC4A5;
+}
+
+
+.logo{
+    position: relative;
+    display: flex;
+    left: 275px;
+    top: 7px;
+
+}
+
+.main-image{
+    position: relative;
+	background-image: url("Cbackground.jpg");
+    height: 500px;
+    margin: auto;
+    background-size: cover;
+   
 }
 
 .nav {
@@ -182,31 +198,18 @@
 .nav a {
     padding: 3px 10px 3px 10px;
     text-decoration: none;
-    font-family: raleway;
+   font-family: 'Cabin', sans-serif;
     font-size: 20px;
     color: black;
     font-weight: 600;
 }
 
-.branding img{
-    position: relative;
-    display: flex;
-    left: 260px;
-    top: 12px;
-}
 
 
 
-.sign-up{
-    position: relative;
-    height: 500px;
-    margin: auto;
-    background-size: cover;
-    background-image: url("Cbackground.jpg");
-}
 
 
-.sign-up-text-blox {
+.sign-up-box {
     position: relative;
     width: 600px;
     margin: auto;
@@ -214,32 +217,34 @@
     background: none;
 }
 
-.sign-up-text-blox h1 {
+.sign-up-box h1 {
     position: relative;
     margin: auto;
+    font-family: 'Cabin', sans-serif;
     text-align: center;
     color: white;
-    font-family: raleway;
+    
 }
 
-.sign-up-text-blox p {
+.sign-up-box p {
     position: relative;
     height: 80px;
     width: 400px;
+    font-family: 'Cabin', sans-serif;
     text-align: center;
     color: white;
     margin: 10px auto;
-    font-family: lora;
+   
 }
 
-.pill-button-pricing {
+.pricing-putton {
     position: relative;
     left: 252px;
     margin: none;
     padding: 8px 20px 8px 20px;
     color: white;
+    font-family: 'Cabin', sans-serif;
     text-decoration: none;
-    font-family: raleway;
     border: solid;
 }
 
@@ -247,30 +252,32 @@
     position: relative;
     display: inline-flex;
     padding: 70px 0 40px 0;
+	
 }
-.features {
+.features-container {
     width: 300px;
+	padding: 5px 5px 5px 5px;
+	 
+	
 }
 
 .feature-image {
-    position: relative;
-    width: 200px;
-    height: 200px;
+   position: relative;
+    width: 250px;
+    height: 250px;
     margin: 0 auto 0 auto;
-}
-
-.feature-image img {
-    height: 200px;
-    border-radius: 50%;
+	 height: 200px;
     overflow: hidden;
 }
+
 
 .features h2 {
     position: relative;
     left: 92px;
+    font-family: 'Cabin', sans-serif;
     display: inline-block;
     margin: 20px 0 0 0;
-    font-family: raleway;
+    
     
 }
 
@@ -289,9 +296,10 @@
 
 .more-features h2 {
     position: relative;
+    font-family: 'Cabin', sans-serif;
     display: inline-flex;
     padding: 0 30px;
-    font-family: raleway;
+    
 }
 
 .more-features p {
@@ -301,223 +309,67 @@
     
 }
 
-.more-features-image img{
-    position: relative;
-    padding: 30px 20px 30px 10px ;
-    width: 600px;
-}
 
-.pill-button-feature {
+.f-button {
+	font-family: 'Cabin', sans-serif;
     position: relative;
     justify-content: flex-start
     left: 250px;
     display: inline-block;
+	border: solid;
     background: none;
     padding: 10px 30px 10px 30px;
     margin: 30px 0 0 30px;
-    color: grey;
-    text-decoration: none;
-    font-family: raleway;
-    border: solid;
+    color: #9E8C7F;
+	text-decoration: none;
+    
+}
+
+.view-f img{
+    position: relative;
+    width: 250px;
+    height: 250px;
+	padding: 30px 20px 30px 10px ;
+}
+.footer {
+    display: flex;
+    padding: 15px 10px 15px 10px;
+    font-size: 20px;
+    right: inherit;
+    padding-right: 50px;
 }
 
 footer {
-
-display: flex;
-padding: 15px 10px 15px 10px; 
-
-}
-
-div li{
-
-display: inline-flex;
-margin: 0 10px;
-right:auto
-}
-
-
-* {
-    box-sizing: border-box;
-}
-
-.main-container {
-    width: 1200px;
-    margin: 0 auto 0 auto;
-    position: relative;
-    margin: auto;
-    diplay: flex;
-    background-color: #DDC4A5;
-}
-
-.nav {
-    position: relative;
-    display: flex;
-    height: 125px;
     background: #9E8C7F;
-    margin: auto;
-
-}
-
-.nav li {
-    position: relative;
-    display: inline-flex;
-    margin: 0 10px;
-    top: 30px;
-
-}
-
-.nav a {
-    padding: 3px 10px 3px 10px;
-    text-decoration: none;
-    font-family: raleway;
-    font-size: 20px;
-    color: black;
-    font-weight: 600;
-}
-
-.branding img{
-    position: relative;
     display: flex;
-    left: 260px;
-    top: 12px;
+    padding: 15px 10px 15px 10px;
+    font-size: 12px;
 }
 
 
-
-.sign-up{
-    position: relative;
-    height: 500px;
-    margin: auto;
-    background-size: cover;
-    background-image: url("Cbackground.jpg");
+.footer-links {
+    flex: 1;
+    text-align: right;
 }
 
-
-.sign-up-text-blox {
-    position: relative;
-    width: 600px;
-    margin: auto;
-    top: 320px;
-    background: none;
-}
-
-.sign-up-text-blox h1 {
-    position: relative;
-    margin: auto;
-    text-align: center;
-    color: white;
-    font-family: raleway;
-}
-
-.sign-up-text-blox p {
-    position: relative;
-    height: 80px;
-    width: 400px;
-    text-align: center;
-    color: white;
-    margin: 10px auto;
-    font-family: lora;
-}
-
-.pill-button-pricing {
-    position: relative;
-    left: 252px;
-    margin: none;
-    padding: 8px 20px 8px 20px;
-    color: white;
+.footer-links a {
+    font-family: 'Cabin', sans-serif;;
+	font-size: 16px;
+	color: black;
     text-decoration: none;
-    font-family: raleway;
-    border: solid;
+    color: black;
+    margin: 10px;
 }
 
-.feature-items {
-    position: relative;
-    display: inline-flex;
-    padding: 70px 0 40px 0;
-}
-.features {
-    width: 300px;
+.footer-links p {
+    color: black;
+    margin: 5px 0;
+    padding: 10px;
+    word-spacing: 3px;
 }
 
-.feature-image {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    margin: 0 auto 0 auto;
-}
+p{
+	font-size: 17px;
+	}
 
-.feature-image img {
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
-}
 
-.features h2 {
-    position: relative;
-    left: 92px;
-    display: inline-block;
-    margin: 20px 0 0 0;
-    font-family: raleway;
-    
-}
-
-.features p {
-    width: 300px;
-    padding: 20px;
-    text-align: center;
-    padding: 0 20px;
-}
-
-.more-features {
-    position: relative;
-    display: inline-flex;
-    padding:0 0 50px 0;
-}
-
-.more-features h2 {
-    position: relative;
-    display: inline-flex;
-    padding: 0 30px;
-    font-family: raleway;
-}
-
-.more-features p {
-    position: relative;
-    padding: 0 30px;
-    margin: none;
-    
-}
-
-.more-features-image img{
-    position: relative;
-    padding: 30px 20px 30px 10px ;
-    width: 600px;
-}
-
-.pill-button-feature {
-    position: relative;
-    justify-content: flex-start
-    left: 250px;
-    display: inline-block;
-    background: none;
-    padding: 10px 30px 10px 30px;
-    margin: 30px 0 0 30px;
-    color: grey;
-    text-decoration: none;
-    font-family: raleway;
-    border: solid;
-}
-
-footer {
-
-display: flex;
-padding: 15px 10px 15px 10px; 
-
-}
-
-div li{
-
-display: inline-flex;
-margin: 0 10px;
-right:auto
-}
